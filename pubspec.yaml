@@ -38,7 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_fonts: ^6.2.1
   path_provider:
-  syncfusion_flutter_pdfviewer: ^29.2.11
+  # syncfusion_flutter_pdfviewer: ^29.2.11
+  syncfusion_flutter_pdfviewer: ^29.1.38
   pdfx: ^2.9.2
 
 dev_dependencies:
