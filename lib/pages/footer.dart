@@ -123,21 +123,24 @@ class Footer extends StatelessWidget {
                       height: 16,
                     ),
                     const Text(
-                      'Spring Boot',
+                      'Core Cloud Computing Concepts',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Spring security',
+                      'Compute & Deployment',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Firebase',
+                      'Storage',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Flutter ',
+                      'Networking ',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
+                   const Text("Security & Identity Management",style: TextStyle(color: Color(0XFFDADADA))),
+                   const Text("Databases in the Cloud",style: TextStyle(color: Color(0XFFDADADA))),
+                   
                   ],
                 ),
               ),

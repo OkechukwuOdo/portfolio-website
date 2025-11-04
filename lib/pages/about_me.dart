@@ -207,10 +207,10 @@ class PersonalDetails extends StatelessWidget {
     return RichText(
         text: TextSpan(
             text: title,
-            style: const TextStyle(fontSize: 22, color: AppColors.primaryColor),
+            style: const TextStyle(fontSize: 20, color: AppColors.primaryColor),
             children: [
           TextSpan(
-              style: const TextStyle(fontSize: 20, color: AppColors.blackColor),
+              style: const TextStyle(fontSize: 18, color: AppColors.blackColor),
               text: value)
         ]));
   }

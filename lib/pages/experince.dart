@@ -36,7 +36,7 @@ class Experince extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Java/Flutter Engineer',
+                      'Flutter Developer',
                       style: GoogleFonts.belanosima(fontSize: 18),
                     ),
                     Text('Sharashell Tech. Limited', style: GoogleFonts.acme()),
@@ -44,41 +44,47 @@ class Experince extends StatelessWidget {
                       height: 4,
                     ),
                     RichText(
-                      text: TextSpan(
-                          text: "• ",
-                          children: [
-                            TextSpan(
-                                style: GoogleFonts.poppins(),
-                                text:
-                                    'Designed software solution by analyzing system performance standard by increasing performace efficiency by 28%')
-                          ]),
+                      text: TextSpan(text: "• ", children: [
+                        TextSpan(
+                            style: GoogleFonts.poppins(),
+                            text:
+                                'Designed dynamic user interfaces with responsive layouts and custom widgets to enhance user engagement.')
+                      ]),
                     ),
                     RichText(
-                      text: const TextSpan(
-                          text: "• ",
-                          children: [
-                            TextSpan(
-                                text:
-                                    'Planned, tracked and managed 100+ deliverable on short term sprint and long term software development')
-                          ]),
+                      text: const TextSpan(text: "• ", children: [
+                        TextSpan(
+                            text:
+                                'Implemented product search, filtering, and recommendation features using REST APIs and Firebase.')
+                      ]),
                     ),
                     RichText(
-                      text: const TextSpan(
-                          text: "• ",
-                          children: [
-                            TextSpan(
-                                text:
-                                    'Developed and executed 300+ test procedure for software component.')
-                          ]),
+                      text: const TextSpan(text: "• ", children: [
+                        TextSpan(
+                            text:
+                                'Used Provider for state management to maintain optimal app performance and scalability..')
+                      ]),
                     ),
                     RichText(
-                      text: const TextSpan(
-                          text: "• ",
-                          children: [
-                            TextSpan(
-                                text:
-                                    ' Developed REST APIs for seamless integration betweenfrontend and backend systems, improving API response times and overall userexperience')
-                          ]),
+                      text: const TextSpan(text: "• ", children: [
+                        TextSpan(
+                            text:
+                                '•Conducted unit and widget testing,reducing post-release bugs by 25%')
+                      ]),
+                    ),
+                    RichText(
+                      text: const TextSpan(text: "• ", children: [
+                        TextSpan(
+                            text:
+                                '•Collaborated with the backend team to integrate APIs for order management, user authentication, and inventory updates.')
+                      ]),
+                    ),
+                    RichText(
+                      text: const TextSpan(text: "• ", children: [
+                        TextSpan(
+                            text:
+                                '•Optimized app performance,reducing startup time by 45% and improving overall app responsiveness..')
+                      ]),
                     ),
                   ],
                 ),
@@ -89,7 +95,7 @@ class Experince extends StatelessWidget {
               const SizedBox(
                 height: 18,
               ),
-                SizedBox(
+              SizedBox(
                 width: 700,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -103,41 +109,33 @@ class Experince extends StatelessWidget {
                       height: 4,
                     ),
                     RichText(
-                      text: TextSpan(
-                          text: "• ",
-                          children: [
-                            TextSpan(
-                                style: GoogleFonts.poppins(),
-                                text:
-                                    'Designed and implemented scalable RESTful APIs for e-commerce web based application')
-                          ]),
+                      text: TextSpan(text: "• ", children: [
+                        TextSpan(
+                            style: GoogleFonts.poppins(),
+                            text:
+                                '•Designed Software solution by analyzing system performance standard by increasing performance 05/2022 – 11/2023 efficiency by 27%')
+                      ]),
                     ),
                     RichText(
-                      text: const TextSpan(
-                          text: "• ",
-                          children: [
-                            TextSpan(
-                                text:
-                                    'Participated in code reviews, ensuring adherence to coding standards and best practices')
-                          ]),
+                      text: const TextSpan(text: "• ", children: [
+                        TextSpan(
+                            text:
+                                '•Automated test and debugging protocols resulting in a 40% improvement in the system operational efficiency')
+                      ]),
                     ),
                     RichText(
-                      text: const TextSpan(
-                          text: "• ",
-                          children: [
-                            TextSpan(
-                                text:
-                                    'Collaborated with frontend teams to deliver full-stack solutions for web pplications.')
-                          ]),
+                      text: const TextSpan(text: "• ", children: [
+                        TextSpan(
+                            text:
+                                '•Establish, maintained and developed an extensive test coverage from new features which reduced the number of bugs by 13% monthly.')
+                      ]),
                     ),
                     RichText(
-                      text: const TextSpan(
-                          text: "• ",
-                          children: [
-                            TextSpan(
-                                text:
-                                    ' Developed REST APIs for seamless integration between frontend and backend systems, improving API response times and overall userexperience')
-                          ]),
+                      text: const TextSpan(text: "• ", children: [
+                        TextSpan(
+                            text:
+                                '•Refined existing code and executed automated testing routines to improve scalability by and performance by 85%')
+                      ]),
                     ),
                   ],
                 ),
