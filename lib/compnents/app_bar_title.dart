@@ -65,7 +65,7 @@ class KAppBar {
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text('OSc'),
+                    Text('OS'),
                     // GestureDetector(onTap: () {}, child: const Icon(Icons.menu))
                   ],
                 ),
