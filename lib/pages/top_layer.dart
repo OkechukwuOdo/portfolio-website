@@ -16,12 +16,12 @@ class TopLayer extends StatelessWidget {
       color: AppColors.primaryColor,
       padding: const EdgeInsets.all(defaultPadding * 1.5),
       child: ScreenSize.isMobile(context)
-          ? mobileTopLayer()
+          ? mobileTopLayer(context)
           : Row(
               children: [
                 Container(
-                  width: 250,
-                  height: 250,
+                  width: 210,
+                  height: 210,
                   decoration: const BoxDecoration(
                       color: AppColors.backgoundColor, shape: BoxShape.circle),
                 ),
@@ -37,17 +37,17 @@ class TopLayer extends StatelessWidget {
                       size: 45,
                     ),
                     const SizedBox(
-                      height: 25,
+                      height: 20,
                     ),
                     const Customtext(
                       text: 'OSMOND OKECHUKWU ODO',
                     ),
                     const SizedBox(
-                      height: 25,
+                      height: 20,
                     ),
                     const Customtext(text: 'JAVA / FLUTTER DEVELOPER'),
                     const SizedBox(
-                      height: 25,
+                      height: 20,
                     ),
                     Container(
                         decoration: BoxDecoration(
@@ -75,12 +75,12 @@ class TopLayer extends StatelessWidget {
     );
   }
 
-  Column mobileTopLayer() => Column(
+  Column mobileTopLayer(BuildContext context) => Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            width: 250,
-            height: 250,
+            width: 200,
+            height: 200,
             decoration: const BoxDecoration(
                 color: AppColors.backgoundColor, shape: BoxShape.circle),
           ),
@@ -96,27 +96,39 @@ class TopLayer extends StatelessWidget {
                 size: 45,
               ),
               const SizedBox(
-                height: 25,
+                height: 18,
               ),
               const Customtext(
                 text: 'OSMOND OKECHUKWU ODO',
               ),
               const SizedBox(
-                height: 25,
+                height: 18,
               ),
               const Customtext(text: 'JAVA / FLUTTER DEVELOPER/DevOp'),
               const SizedBox(
-                height: 25,
+                height: 18,
               ),
               Align(
-                alignment: Alignment.centerRight,
-                child: Container(
-                    decoration: BoxDecoration(
-                        color: AppColors.backgoundColor,
-                        borderRadius: BorderRadius.circular(12)),
-                    padding: const EdgeInsets.all(8),
-                    child: const Text('DOWNLOAD CV')),
-              )
+                  alignment: Alignment.centerRight,
+                  child: Container(
+                      decoration: BoxDecoration(
+                          color: AppColors.backgoundColor,
+                          borderRadius: BorderRadius.circular(12)),
+                      padding: const EdgeInsets.all(8),
+                      child: GestureDetector(
+                          onTap: () async {
+                            print("clicked download");
+
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const CvTemplate()),
+                            );
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(content: Text('Saved to: CV')),
+                            );
+                          },
+                          child: const Text('DOWNLOAD CV'))))
             ],
           )
         ],
