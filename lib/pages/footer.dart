@@ -45,19 +45,27 @@ class Footer extends StatelessWidget {
                       height: 16,
                     ),
                     const Text(
-                      'Spring Boot',
+                      'UI/UX & Design Implementation',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Spring security',
+                      'State Management',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Firebase',
+                      'Networking & APIs',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Flutter ',
+                      'Data Persistence ',
+                      style: TextStyle(color: Color(0XFFDADADA)),
+                    ),
+                    const Text(
+                      'Native Integrations ',
+                      style: TextStyle(color: Color(0XFFDADADA)),
+                    ),
+                    const Text(
+                      'Backend & Third party Integration Skills',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                   ],
@@ -86,13 +94,17 @@ class Footer extends StatelessWidget {
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Firebase',
+                      'Java & OOP Mastery',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Flutter ',
+                      'RESTful API Design ',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
+                    const Text("Application Architecture & Design Patterns",style: TextStyle(color: Color(0XFFDADADA))),
+                    const Text("Messaging, WebSocket & Realtime Updates",style: TextStyle(color: Color(0XFFDADADA))
+                    )
+
                   ],
                 ),
               ),
@@ -129,6 +141,44 @@ class Footer extends StatelessWidget {
                   ],
                 ),
               ),
+               Container(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 16, vertical: 8),
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            color: AppColors.whiteColor),
+                        child: const Text('Devops')),
+                    const SizedBox(
+                      height: 16,
+                    ),
+                     const Text(
+                      'CI/CD Pipelines',
+                      style: TextStyle(color: Color(0XFFDADADA)),
+                    ),
+                    Text("Version Contro",style: TextStyle(color: Color(0XFFDADADA)),),
+                    const Text(
+                      'Configuration Management',
+                      style: TextStyle(color: Color(0XFFDADADA)),
+                    ),
+                    const Text(
+                      'Monitoring, Logging & Alerting',
+                      style: TextStyle(color: Color(0XFFDADADA)),
+                    ),
+                    const Text(
+                      'Deployment & Scaling',
+                      style: TextStyle(color: Color(0XFFDADADA)),
+                    ),
+                    const Text(
+                      'Automation & Scripting',
+                      style: TextStyle(color: Color(0XFFDADADA)),
+                    ),
+                  ],
+                ),
+              ),
               Container(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -144,22 +194,27 @@ class Footer extends StatelessWidget {
                       height: 16,
                     ),
                     const Text(
-                      'Spring Boot',
+                      'Problem-Solving & Critical Thinking',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Spring security',
+                      'Communication',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Firebase',
+                      'Collaboration & Teamwork',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                     const Text(
-                      'Flutter ',
+                      'Adaptability & Learning Agility ',
+                      style: TextStyle(color: Color(0XFFDADADA)),
+                    ),
+                    const Text(
+                      'Attention to Detail',
                       style: TextStyle(color: Color(0XFFDADADA)),
                     ),
                   ],
+                  // Attention to Detail
                 ),
               ),
             ],
