@@ -15,17 +15,18 @@ class KAppBar {
                   width: double.maxFinite,
                   child: Row(
                     children: [
+                     
                       Container(
                         height: 38,
                         width: 38,
                         decoration: const BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage("assets/icon/ooo-tech.png"))
+                                image: AssetImage('assets/icon/ooo-tech.png'))
                             // shape: BoxShape.circle,
                             // color: AppColors.primaryColor
                             ),
                       ),
-                      // const SizedBox(
+                      // // const SizedBox(
                       //   width: 6,
                       // ),
                       // const Customtext(
@@ -64,10 +65,19 @@ class KAppBar {
                 ),
               )
             : Container(
-                child: const Row(
+                child:  Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text('OS'),
+                    Container(
+                        height: 38,
+                        width: 38,
+                        decoration: const BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage('assets/icon/ooo-tech.png'))
+                            // shape: BoxShape.circle,
+                            // color: AppColors.primaryColor
+                            ),
+                      ),
                     // GestureDetector(onTap: () {}, child: const Icon(Icons.menu))
                   ],
                 ),

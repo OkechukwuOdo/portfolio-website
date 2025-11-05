@@ -20,10 +20,13 @@ class TopLayer extends StatelessWidget {
           : Row(
               children: [
                 Container(
-                  width: 200,
-                  height: 200,
+                  width: 220,
+                  height: 220,
                   decoration: const BoxDecoration(
-                      color: AppColors.backgoundColor, shape: BoxShape.circle),
+                      image: DecorationImage(
+                          fit: BoxFit.fill,
+                          image: AssetImage('assets/image/appstore.png')),
+                      shape: BoxShape.circle),
                 ),
                 const SizedBox(
                   width: 58,
@@ -79,10 +82,13 @@ class TopLayer extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            width: 200,
-            height: 200,
+            width: 220,
+            height: 220,
             decoration: const BoxDecoration(
-                color: AppColors.backgoundColor, shape: BoxShape.circle),
+                image: DecorationImage(
+                    fit: BoxFit.fill,
+                    image: AssetImage('assets/image/appstore.png')),
+                shape: BoxShape.circle),
           ),
           const SizedBox(
             width: 58,

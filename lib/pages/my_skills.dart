@@ -69,11 +69,32 @@ class MySkills extends StatelessWidget {
                 width: 55,
               ),
               SkillItem(
-                title: 'AWS',
+                title: 'DigitalOcean',
                 value: 0.5,
               ),
             ],
+          ),SizedBox(
+            height: 16,
           ),
+            Row(
+            children: [
+              SkillItem(
+                title: 'AWS',
+                value: 0.3,
+              ),
+              // SizedBox(
+              //   width: 55,
+              // ),
+              // SkillItem(
+              //   title: 'DigitalOcean',
+              //   value: 0.5,
+              // ),
+            ],
+          ),
+          //  SkillItem(
+          //       title: 'AW',
+          //       value: 0.3,
+          //     ),
           // SkillItem(
           //   title: 'DevOp',
           //   value: 0.8,
