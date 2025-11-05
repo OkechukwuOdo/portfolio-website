@@ -20,8 +20,8 @@ class TopLayer extends StatelessWidget {
           : Row(
               children: [
                 Container(
-                  width: 210,
-                  height: 210,
+                  width: 200,
+                  height: 200,
                   decoration: const BoxDecoration(
                       color: AppColors.backgoundColor, shape: BoxShape.circle),
                 ),

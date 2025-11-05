@@ -69,21 +69,21 @@ class Experince extends StatelessWidget {
                       text: const TextSpan(text: "• ", children: [
                         TextSpan(
                             text:
-                                '•Conducted unit and widget testing,reducing post-release bugs by 25%')
+                                'Conducted unit and widget testing,reducing post-release bugs by 25%')
                       ]),
                     ),
                     RichText(
                       text: const TextSpan(text: "• ", children: [
                         TextSpan(
                             text:
-                                '•Collaborated with the backend team to integrate APIs for order management, user authentication, and inventory updates.')
+                                'Collaborated with the backend team to integrate APIs for order management, user authentication, and inventory updates.')
                       ]),
                     ),
                     RichText(
                       text: const TextSpan(text: "• ", children: [
                         TextSpan(
                             text:
-                                '•Optimized app performance,reducing startup time by 45% and improving overall app responsiveness..')
+                                'Optimized app performance,reducing startup time by 45% and improving overall app responsiveness..')
                       ]),
                     ),
                   ],
@@ -113,28 +113,28 @@ class Experince extends StatelessWidget {
                         TextSpan(
                             style: GoogleFonts.poppins(),
                             text:
-                                '•Designed Software solution by analyzing system performance standard by increasing performance 05/2022 – 11/2023 efficiency by 27%')
+                                'Designed Software solution by analyzing system performance standard by increasing performance 05/2022 – 11/2023 efficiency by 27%')
                       ]),
                     ),
                     RichText(
                       text: const TextSpan(text: "• ", children: [
                         TextSpan(
                             text:
-                                '•Automated test and debugging protocols resulting in a 40% improvement in the system operational efficiency')
+                                'Automated test and debugging protocols resulting in a 40% improvement in the system operational efficiency')
                       ]),
                     ),
                     RichText(
                       text: const TextSpan(text: "• ", children: [
                         TextSpan(
                             text:
-                                '•Establish, maintained and developed an extensive test coverage from new features which reduced the number of bugs by 13% monthly.')
+                                'Establish, maintained and developed an extensive test coverage from new features which reduced the number of bugs by 13% monthly.')
                       ]),
                     ),
                     RichText(
                       text: const TextSpan(text: "• ", children: [
                         TextSpan(
                             text:
-                                '•Refined existing code and executed automated testing routines to improve scalability by and performance by 85%')
+                                'Refined existing code and executed automated testing routines to improve scalability by and performance by 85%')
                       ]),
                     ),
                   ],

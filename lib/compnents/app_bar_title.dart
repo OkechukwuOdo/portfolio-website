@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:portfolio_website/compnents/screen_size.dart';
 import 'package:portfolio_website/styles/app_colors.dart';
@@ -6,7 +5,7 @@ import 'package:portfolio_website/widgets/customText.dart';
 
 class KAppBar {
   static kAppBar(BuildContext context) => AppBar(
-    surfaceTintColor: AppColors.backgoundColor,
+        surfaceTintColor: AppColors.backgoundColor,
         title: ScreenSize.isDesktop(context)
             ? ClipRRect(
                 borderRadius: BorderRadius.circular(10),
@@ -20,17 +19,20 @@ class KAppBar {
                         height: 38,
                         width: 38,
                         decoration: const BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: AppColors.primaryColor),
+                            image: DecorationImage(
+                                image: AssetImage("assets/icon/ooo-tech.png"))
+                            // shape: BoxShape.circle,
+                            // color: AppColors.primaryColor
+                            ),
                       ),
-                      const SizedBox(
-                        width: 6,
-                      ),
-                      const Customtext(
-                        text: 'OS',
-                        size: 32,
-                        color: AppColors.blackColor,
-                      ),
+                      // const SizedBox(
+                      //   width: 6,
+                      // ),
+                      // const Customtext(
+                      //   text: 'OS',
+                      //   size: 32,
+                      //   color: AppColors.blackColor,
+                      // ),
                       const Spacer(),
                       const Customtext(
                         text: 'Home',

@@ -41,6 +41,7 @@ class AboutMe extends StatelessWidget {
                           width: MediaQuery.of(context).size.width / 2,
                           child: const Customtext(
                               color: AppColors.blackColor,
+                              wordSpacing: 5,
                               text:
                                   'Experienced Flutter and Java Developer with a strong track record in designing and delivering scalable, userfriendly mobile applications for both Android and iOS. Skilled in object-oriented programming and backend development with Java, with expertise in seamlessly integrating robust back-end systems with intuitive frontend interfaces. Proven ability to lead projects through the entire software development lifecycle, delivering high-quality solutions on time. Proficient in Agile and Scrum methodologies, with a passion for continuous learning and staying updated on the latest industry trends to create innovative and cutting-edge applications.'),
                         ),

@@ -12,7 +12,7 @@ class Footer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         // height: 155,
-        padding: const EdgeInsets.all(defaultPadding),
+        padding: const EdgeInsets.all(defaultPadding*0.5),
         width: MediaQuery.of(context).size.width,
         decoration: const BoxDecoration(color: AppColors.primaryColor),
         child: Column(crossAxisAlignment: CrossAxisAlignment.center, children: [

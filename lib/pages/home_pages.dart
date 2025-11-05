@@ -148,7 +148,19 @@ class _HomePagesState extends State<HomePages> {
           const SizedBox(
             height: 45,
           ),
-          const Footer()
+          const Footer(),
+          Container(
+            padding: EdgeInsets.all(8),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Customtext(
+                  text: "@ osmondokey@gmail.com",
+                  color: AppColors.primaryColor,
+                )
+              ],
+            ),
+          )
         ],
       ),
     );
