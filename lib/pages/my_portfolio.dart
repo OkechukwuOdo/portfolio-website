@@ -110,8 +110,7 @@ class ProjectItem extends StatelessWidget {
                 const SizedBox(
                   height: 12,
                 ),
-                Align(
-                  alignment: AlignmentGeometry.center,
+             
                   child: Container(
                       padding: const EdgeInsets.symmetric(
                           horizontal: 20, vertical: 6),
@@ -123,7 +122,7 @@ class ProjectItem extends StatelessWidget {
                         text: "View",
                         size: 12,
                       )),
-                ),
+                
                 // const SizedBox(
                 //   height: 20,
                 // ),
