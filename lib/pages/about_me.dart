@@ -16,8 +16,7 @@ class AboutMe extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(
             horizontal: defaultPadding, vertical: defaultPadding),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start, children: [
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           const Customtext(
               text: 'About Me', size: 35, color: AppColors.primaryColor),
           ScreenSize.isMobile(context)
@@ -32,7 +31,7 @@ class AboutMe extends StatelessWidget {
                     //     height: 250,
                     //   ),
                     // ),
-      
+
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -83,6 +82,20 @@ class AboutMe extends StatelessWidget {
                                 height: 16,
                               ),
                               PersonalDetails(
+                                title: 'Linkedn:  ',
+                                value: 'Osmond Odo',
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              PersonalDetails(
+                                title: 'Github:  ',
+                                value: 'OkechukwuOdo',
+                              ),
+                              SizedBox(
+                                height: 16,
+                              ),
+                              PersonalDetails(
                                 title: 'Experince:  ',
                                 value: '3 Years',
                               ),
@@ -91,7 +104,8 @@ class AboutMe extends StatelessWidget {
                               ),
                               PersonalDetails(
                                 title: 'Address:  ',
-                                value: 'No 1C Udi lane, Asata Enugu. Enugu State',
+                                value:
+                                    'No 1C Udi lane, Asata Enugu. Enugu State',
                               )
                             ],
                           ),
@@ -102,11 +116,15 @@ class AboutMe extends StatelessWidget {
                     ClipRRect(
                       borderRadius: BorderRadius.circular(10),
                       child: Container(
-                        color: AppColors.primaryColor,
+                        decoration: const BoxDecoration(
+                            image: DecorationImage(
+                                image:
+                                    AssetImage("assets/image/appstore.png"))),
                         width: 250,
-                        height: 250,
+                        height: 300,
                       ),
                     ),
+                    //  image: AssetImage('assets/image/appstore.png')),
                   ],
                 )
         ]),
@@ -123,9 +141,11 @@ class AboutMe extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(10),
             child: Container(
-              color: AppColors.primaryColor,
+              decoration: const BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage("assets/image/appstore.png"))),
               width: 250,
-              height: 250,
+              height: 300,
             ),
           ),
           const SizedBox(
@@ -167,9 +187,29 @@ class AboutMe extends StatelessWidget {
                       title: 'Phone:  ',
                       value: '+234 7037950506',
                     ),
+                    SizedBox(
+                      height: 16,
+                    ),
                     PersonalDetails(
                       title: 'Email:  ',
                       value: 'osmondokey@gmail.com',
+                    ),
+                      SizedBox(
+                      height: 16,
+                    ),
+                    PersonalDetails(
+                      title: 'Linkedn:  ',
+                      value: 'Osmond Odo',
+                    ),
+                    SizedBox(
+                      height: 16,
+                    ),
+                    PersonalDetails(
+                      title: 'Github:  ',
+                      value: 'OkechukwuOdo',
+                    ),
+                    SizedBox(
+                      height: 16,
                     ),
                     SizedBox(
                       height: 16,

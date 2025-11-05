@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio_website/compnents/app_bar_title.dart';
 import 'package:portfolio_website/compnents/constnats/constants.dart';
 import 'package:portfolio_website/compnents/screen_size.dart';
@@ -42,7 +41,7 @@ class _HomePagesState extends State<HomePages> {
       appBar: KAppBar.kAppBar(context),
       key: skafoldKey,
       backgroundColor: AppColors.backgoundColor,
-      endDrawer: ScreenSize.isDesktop(context) ? null : const Drawer(),
+      endDrawer: ScreenSize.isDesktop(context) ? null : const CustomDrawer(),
       body: ListView(
         children: [
           const TopLayer(),
@@ -150,8 +149,8 @@ class _HomePagesState extends State<HomePages> {
           ),
           const Footer(),
           Container(
-            padding: EdgeInsets.all(8),
-            child: Row(
+            padding: const EdgeInsets.all(8),
+            child: const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Customtext(
@@ -162,6 +161,53 @@ class _HomePagesState extends State<HomePages> {
             ),
           )
         ],
+      ),
+    );
+  }
+}
+
+class CustomDrawer extends StatelessWidget {
+  const CustomDrawer({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Drawer(
+      width: 155,
+      child: Container(
+        color: AppColors.primaryColor,
+        padding: const EdgeInsets.all(defaultPadding),
+        child: const Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Customtext(
+              text: 'Home',
+              color: AppColors.backgoundColor,
+            ),
+            SizedBox(
+              height: 26,
+            ),
+            Customtext(
+              text: 'Skills',
+              color: AppColors.backgoundColor,
+            ),
+            SizedBox(
+              height: 26,
+            ),
+            Customtext(
+              text: 'Project',
+              color: AppColors.backgoundColor,
+            ),
+            SizedBox(
+              height: 26,
+            ),
+            Customtext(
+              text: 'Contact',
+              color: AppColors.backgoundColor,
+            ),
+          ],
+        ),
       ),
     );
   }

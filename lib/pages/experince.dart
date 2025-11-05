@@ -20,7 +20,7 @@ class Experince extends StatelessWidget {
           color: AppColors.primaryColor,
         ),
         const SizedBox(
-          height: 35,
+          height: 20,
         ),
         Container(
           padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
@@ -39,49 +39,54 @@ class Experince extends StatelessWidget {
                       'Flutter Developer',
                       style: GoogleFonts.belanosima(fontSize: 18),
                     ),
-                    Text('Sharashell Tech. Limited', style: GoogleFonts.acme()),
+                    Text('Sharashell Tech. Limited', style: GoogleFonts.acme(fontSize: 17)),
                     const SizedBox(
                       height: 4,
                     ),
                     RichText(
                       text: TextSpan(text: "• ", children: [
                         TextSpan(
-                            style: GoogleFonts.poppins(),
+                            style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Designed dynamic user interfaces with responsive layouts and custom widgets to enhance user engagement.')
                       ]),
                     ),
                     RichText(
-                      text: const TextSpan(text: "• ", children: [
+                      text:  TextSpan(text: "• ", children: [
                         TextSpan(
+                          style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Implemented product search, filtering, and recommendation features using REST APIs and Firebase.')
                       ]),
                     ),
                     RichText(
-                      text: const TextSpan(text: "• ", children: [
+                      text:  TextSpan(text: "• ", children: [
                         TextSpan(
+                          style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Used Provider for state management to maintain optimal app performance and scalability..')
                       ]),
                     ),
                     RichText(
-                      text: const TextSpan(text: "• ", children: [
+                      text:  TextSpan(text: "• ", children: [
                         TextSpan(
+                          style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Conducted unit and widget testing,reducing post-release bugs by 25%')
                       ]),
                     ),
                     RichText(
-                      text: const TextSpan(text: "• ", children: [
+                      text:  TextSpan(text: "• ", children: [
                         TextSpan(
+                          style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Collaborated with the backend team to integrate APIs for order management, user authentication, and inventory updates.')
                       ]),
                     ),
                     RichText(
-                      text: const TextSpan(text: "• ", children: [
+                      text:  TextSpan(text: "• ", children: [
                         TextSpan(
+                          style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Optimized app performance,reducing startup time by 45% and improving overall app responsiveness..')
                       ]),
@@ -104,35 +109,38 @@ class Experince extends StatelessWidget {
                       'Java Engineer',
                       style: GoogleFonts.belanosima(fontSize: 18),
                     ),
-                    Text('Teranium co', style: GoogleFonts.acme()),
+                    Text('Teranium co', style: GoogleFonts.acme(fontSize: 17)),
                     const SizedBox(
                       height: 4,
                     ),
                     RichText(
                       text: TextSpan(text: "• ", children: [
                         TextSpan(
-                            style: GoogleFonts.poppins(),
+                            style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
-                                'Designed Software solution by analyzing system performance standard by increasing performance 05/2022 – 11/2023 efficiency by 27%')
+                                'Designed Software solution by analyzing system performance standard by increasing performance efficiency by 27%')
                       ]),
                     ),
                     RichText(
-                      text: const TextSpan(text: "• ", children: [
+                      text:  TextSpan(text: "• ", children: [
                         TextSpan(
+                          style:  GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Automated test and debugging protocols resulting in a 40% improvement in the system operational efficiency')
                       ]),
                     ),
                     RichText(
-                      text: const TextSpan(text: "• ", children: [
+                      text:  TextSpan(text: "• ", children: [
                         TextSpan(
+                          style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Establish, maintained and developed an extensive test coverage from new features which reduced the number of bugs by 13% monthly.')
                       ]),
                     ),
                     RichText(
-                      text: const TextSpan(text: "• ", children: [
+                      text:  TextSpan(text: "• ", children: [
                         TextSpan(
+                          style: GoogleFonts.poppins(wordSpacing: 3,fontSize: 14),
                             text:
                                 'Refined existing code and executed automated testing routines to improve scalability by and performance by 85%')
                       ]),

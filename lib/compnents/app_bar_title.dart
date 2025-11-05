@@ -6,6 +6,7 @@ import 'package:portfolio_website/widgets/customText.dart';
 class KAppBar {
   static kAppBar(BuildContext context) => AppBar(
         surfaceTintColor: AppColors.backgoundColor,
+        backgroundColor: AppColors.backgoundColor,
         title: ScreenSize.isDesktop(context)
             ? ClipRRect(
                 borderRadius: BorderRadius.circular(10),
@@ -18,15 +19,14 @@ class KAppBar {
                       Container(
                         height: 38,
                         width: 38,
-                        child: Icon(Icons.person),
-                        // decoration: const BoxDecoration(
-                        //     image: DecorationImage(
-                        //         image: AssetImage("assets/icon/ooo-tech.png"))
-                        //     // shape: BoxShape.circle,
-                        //     // color: AppColors.primaryColor
-                        //     ),
+                        decoration: const BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage('assets/icon/ooo-tech.png'))
+                            // shape: BoxShape.circle,
+                            // color: AppColors.primaryColor
+                            ),
                       ),
-                      // const SizedBox(
+                      // // const SizedBox(
                       //   width: 6,
                       // ),
                       // const Customtext(
@@ -65,10 +65,19 @@ class KAppBar {
                 ),
               )
             : Container(
-                child: const Row(
+                child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text('OS'),
+                    Container(
+                      height: 38,
+                      width: 38,
+                      decoration: const BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage('assets/icon/ooo-tech.png'))
+                          // shape: BoxShape.circle,
+                          // color: AppColors.primaryColor
+                          ),
+                    ),
                     // GestureDetector(onTap: () {}, child: const Icon(Icons.menu))
                   ],
                 ),
