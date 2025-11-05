@@ -121,6 +121,19 @@ class ProjectItem extends StatelessWidget {
                       text: "View",
                       size: 12,
                     )),
+             
+                  // child: Container(
+                  //     padding: const EdgeInsets.symmetric(
+                  //         horizontal: 20, vertical: 6),
+                  //     decoration: BoxDecoration(
+                  //       borderRadius: BorderRadius.circular(25),
+                  //       color: AppColors.primaryColor,
+                  //     ),
+                  //     child: const Customtext(
+                  //       text: "View",
+                  //       size: 12,
+                  //     )),
+                
                 // const SizedBox(
                 //   height: 20,
                 // ),
