@@ -18,12 +18,13 @@ class KAppBar {
                       Container(
                         height: 38,
                         width: 38,
-                        decoration: const BoxDecoration(
-                            image: DecorationImage(
-                                image: AssetImage("assets/icon/ooo-tech.png"))
-                            // shape: BoxShape.circle,
-                            // color: AppColors.primaryColor
-                            ),
+                        child: Icon(Icons.person),
+                        // decoration: const BoxDecoration(
+                        //     image: DecorationImage(
+                        //         image: AssetImage("assets/icon/ooo-tech.png"))
+                        //     // shape: BoxShape.circle,
+                        //     // color: AppColors.primaryColor
+                        //     ),
                       ),
                       // const SizedBox(
                       //   width: 6,
