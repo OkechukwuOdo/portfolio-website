@@ -37,25 +37,25 @@ class MyPortfolio extends StatelessWidget {
                 title: 'School Website',
                 description:
                     'A beautiful and responsive Flutter web-based school website that highlights the school’s values, achievements, and programs. It provides visitors with easy access to admission details, news updates, and contact information giving the school a professional online presence',
-                image: null,
+                // image: null,
               ),
               ProjectItem(
                 title: 'School Portal',
                 description:
                     'A modern Flutter web-based school portal that brings learning and administration together in one place. Students can easily access their classes, grades, and assignments, while teachers manage attendance, upload materials, and communicate with learners all from an intuitive, fast, and responsive web experience',
-                image: null,
+                // image: null,
               ),
               ProjectItem(
                 title: 'School ERP',
                 description:
                     'A powerful school ERP solution designed to simplify academic and administrative management. From admissions to finance and HR, it gives school owners and administrators full control and visibility into daily operations all from one connected platform built with modern technologies',
-                image: null,
+                // image: null,
               ),
               ProjectItem(
                 title: 'School Management System',
                 description:
                     'A powerful Java backend built with Spring Boot and MongoDB that drives the entire school ecosystem from the website to the ERP. It delivers high performance, strong security, and real-time connectivity to ensure seamless experiences for students, teachers, and administrators. Designed for scalability and efficiency, it keeps every school operation connected under one intelligent platform',
-                image: null,
+                // image: null,
               ),
                ProjectItem(
                 title: 'Green Sphere App',
@@ -92,7 +92,7 @@ class ProjectItem extends StatelessWidget {
     super.key,
     required this.title,
     required this.description,
-    required this.image,
+     this.image,
   });
 
   @override
@@ -127,20 +127,30 @@ class ProjectItem extends StatelessWidget {
                 const SizedBox(
                   height: 12,
                 ),
-                Align(
-                  alignment: AlignmentGeometry.center,
-                  child: Container(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 6),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(25),
-                        color: AppColors.primaryColor,
-                      ),
-                      child: const Customtext(
-                        text: "View",
-                        size: 12,
-                      )),
-                ),
+                Container(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20, vertical: 6),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(25),
+                      color: AppColors.primaryColor,
+                    ),
+                    child: const Customtext(
+                      text: "View",
+                      size: 12,
+                    )),
+             
+                  // child: Container(
+                  //     padding: const EdgeInsets.symmetric(
+                  //         horizontal: 20, vertical: 6),
+                  //     decoration: BoxDecoration(
+                  //       borderRadius: BorderRadius.circular(25),
+                  //       color: AppColors.primaryColor,
+                  //     ),
+                  //     child: const Customtext(
+                  //       text: "View",
+                  //       size: 12,
+                  //     )),
+                
                 // const SizedBox(
                 //   height: 20,
                 // ),
