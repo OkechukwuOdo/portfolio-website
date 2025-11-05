@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y curl unzip xz-utils git
 # RUN curl -LO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.27.0-stable.tar.xz \
 RUN curl -LO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.29.0-stable.tar.xz \
 
-    && tar xf flutter_linux_3.27.0-stable.tar.xz \
+    && tar xf flutter_linux_3.29.0-stable.tar.xz \
     && mv flutter /usr/local/flutter
 
 # Add Flutter to PATH
