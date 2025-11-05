@@ -57,7 +57,24 @@ class MyPortfolio extends StatelessWidget {
                     'A powerful Java backend built with Spring Boot and MongoDB that drives the entire school ecosystem from the website to the ERP. It delivers high performance, strong security, and real-time connectivity to ensure seamless experiences for students, teachers, and administrators. Designed for scalability and efficiency, it keeps every school operation connected under one intelligent platform',
                 image: null,
               ),
-
+               ProjectItem(
+                title: 'Green Sphere App',
+                description:
+                    'A modern Flutter-powered mobile app that connects farmers and buyers in one digital marketplace. Farmers can list and sell produce directly, while buyers easily browse, order, and track fresh farm goods — all from an intuitive mobile experience built for speed and reliability',
+                image: null,
+              ),
+               ProjectItem(
+                title: 'Green Sphere CRM',
+                description:
+                    'A powerful Flutter web-based CRM that gives admins, support teams, and logistics managers full control of the agricultural marketplace. From tracking farmers and buyers to managing orders and resolving issues, it keeps the entire ecosystem running efficiently and transparently',
+                image: null,
+              ),
+               ProjectItem(
+                title: 'Green Sphere Backend System',
+                description:
+                    'A robust Java backend built with Spring Boot and MongoDB, powering a smart e-commerce platform for agricultural produce. It connects farmers directly to buyers, streamlining the entire process — from listing crops and managing orders to handling payments and delivery. Built for speed, scalability, and trust, it makes digital agriculture seamless and profitable',
+                image: null,
+              ),
               // ProjectItem(),
             ],
           ),
