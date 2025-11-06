@@ -75,6 +75,24 @@ class MyPortfolio extends StatelessWidget {
                     'A robust Java backend built with Spring Boot and MongoDB, powering a smart e-commerce platform for agricultural produce. It connects farmers directly to buyers, streamlining the entire process — from listing crops and managing orders to handling payments and delivery. Built for speed, scalability, and trust, it makes digital agriculture seamless and profitable',
                 image: null,
               ),
+                ProjectItem(
+                title: 'RentInn Users',
+                description:
+                    'A sleek Flutter web app that makes finding your next apartment or hotel stay effortless. Search, compare, and book accommodations instantly — with interactive maps, secure payments, and real-time availability updates, all in one smooth online experience',
+                image: null,
+              ),
+                ProjectItem(
+                title: 'RentInn CRM',
+                description:
+                    'A powerful, web-based CRM that empowers property owners and administrators to manage listings, track bookings, and engage with customers in real time. From managing hotels and apartments to analyzing performance and revenue — everything runs smoothly from one intuitive dashboard',
+                image: null,
+              ),
+                ProjectItem(
+                title: 'RentInn Backend System',
+                description:
+                    'A high-performance Java backend built with Spring Boot that powers the entire accommodation platform. It connects users, property owners, and administrators — managing listings, bookings, payments, and analytics securely and efficiently',
+                image: null,
+              ),
               // ProjectItem(),
             ],
           ),

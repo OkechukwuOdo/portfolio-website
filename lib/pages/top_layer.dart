@@ -34,16 +34,17 @@ class TopLayer extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Customtext(
-                      text: "I'm",
-                      color: AppColors.whiteColor,
-                      size: 45,
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
+                    // const Customtext(
+                    //   text: "I'm",
+                    //   color: AppColors.whiteColor,
+                    //   size: 45,
+                    // ),
+                    // const SizedBox(
+                    //   height: 20,
+                    // ),
                     const Customtext(
                       text: 'OSMOND OKECHUKWU ODO',
+                      size: 45,
                     ),
                     const SizedBox(
                       height: 20,
